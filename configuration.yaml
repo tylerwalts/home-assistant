@@ -24,7 +24,7 @@ config:
 
 http:
   # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
+  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: example.duckdns.org:8123
 
@@ -60,7 +60,12 @@ sensor:
 tts:
   - platform: google
 
-nest: !include nest.yaml
+ifttt:
+  key: !secret ifttt_key
+
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
 
 light:
   - platform: hue
