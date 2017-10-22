@@ -1,0 +1,6 @@
+deps/
+secrets.yaml
+nest.conf
+phue.conf
+.uuid
+home-assistant_v2.db
