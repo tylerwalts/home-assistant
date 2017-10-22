@@ -1,1 +1,7 @@
-[]
+- alias: 'Startup Notification'
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    service: script.startup_tasks
+

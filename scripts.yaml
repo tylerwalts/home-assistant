@@ -1,0 +1,15 @@
+startup_tasks:
+  sequence:
+    - service: ifttt.trigger
+      data_template: {"event":"HA_ping", "value1":"", "value2":"", "value3":""}
+    - service: persistent_notification.create
+      data:
+        message: "HASS Started!"
+    - service: ifttt.trigger
+      data:
+        event: "HA_ping"
+        value1: "Ahoy!"
+        value2: "{{ trigger.event }}"
+        value3: ""
+
+
