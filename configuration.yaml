@@ -60,6 +60,7 @@ sensor:
 tts:
   - platform: google
 
+# Docs here:  https://home-assistant.io/components/ifttt/
 ifttt:
   key: !secret ifttt_key
 
