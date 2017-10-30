@@ -1,0 +1,161 @@
+tyler_phone:
+  hide_if_away: false
+  icon:
+  mac: CC:3A:61:C1:D5:C5
+  name: Tyler Phone
+  picture:
+  track: true
+
+holli_phone:
+  hide_if_away: false
+  icon:
+  mac: 8C:8E:F2:69:EA:56
+  name: Holli Phone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+holli_work_laptop:
+  hide_if_away: false
+  icon:
+  mac: E4:A7:A0:B4:EF:E2
+  name: Holli Work Laptop
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+echo_shop:
+  hide_if_away: false
+  icon:
+  mac: 00:FC:8B:A7:62:B2
+  name: Echo Shop
+  picture:
+  track: true
+  vendor: Amazon Technologies Inc.
+
+nest_living_room:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:BF:C7:7E
+  name: Nest Living Room
+  picture:
+  track: true
+  vendor: Nest Labs Inc.
+
+echo_kitchen:
+  hide_if_away: false
+  icon:
+  mac: 6C:56:97:12:AD:11
+  name: Echo Kitchen
+  picture:
+  track: true
+  vendor: Amazon Technologies Inc.
+
+philips_hue_hub:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:0A:AB:10
+  name: Philips Hue Hub
+  picture:
+  track: true
+  vendor: Philips Lighting BV
+
+chromecast_family_room:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:11:1D:D6
+  name: Chromecast Family Room
+  picture:
+  track: true
+  vendor: Google, Inc.
+
+6cadf833f145:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:33:F1:45
+  name: 6cadf833f145
+  picture:
+  track: true
+  vendor: AzureWave Technology Inc.
+
+00c2c6d11195:
+  hide_if_away: false
+  icon:
+  mac: 00:C2:C6:D1:11:95
+  name: Intel Laptop
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+e04f431123b5:
+  hide_if_away: false
+  icon:
+  mac: E0:4F:43:11:23:B5
+  name: e04f431123b5
+  picture:
+  track: true
+  vendor: Universal Global Scientific Industrial Co., Ltd.
+
+e84e06462dd2:
+  hide_if_away: false
+  icon:
+  mac: E8:4E:06:46:2D:D2
+  name: e84e06462dd2
+  picture:
+  track: true
+  vendor: EDUP INTERNATIONAL (HK) CO., LTD
+
+f04f7c98f3f4:
+  hide_if_away: false
+  icon:
+  mac: F0:4F:7C:98:F3:F4
+  name: f04f7c98f3f4
+  picture:
+  track: true
+  vendor: unknown
+
+4c0bbe472b6c:
+  hide_if_away: false
+  icon:
+  mac: 4C:0B:BE:47:2B:6C
+  name: 4c0bbe472b6c
+  picture:
+  track: true
+  vendor: Microsoft
+
+3402863a9819:
+  hide_if_away: false
+  icon:
+  mac: 34:02:86:3A:98:19
+  name: 3402863a9819
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+10ae600a0a4c:
+  hide_if_away: false
+  icon:
+  mac: 10:AE:60:0A:0A:4C
+  name: 10ae600a0a4c
+  picture:
+  track: true
+  vendor: unknown
+
+f4cb526158c1:
+  hide_if_away: false
+  icon:
+  mac: F4:CB:52:61:58:C1
+  name: f4cb526158c1
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+9884e3cf36bb:
+  hide_if_away: false
+  icon:
+  mac: 98:84:E3:CF:36:BB
+  name: 9884e3cf36bb
+  picture:
+  track: true
+  vendor: Texas Instruments
+

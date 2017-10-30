@@ -2,19 +2,16 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 45.5508
-  longitude: -122.7377
+  latitude: 45.5024403
+  longitude: -122.7741049
   # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: 199
+  elevation: 123
   # metric for Metric, imperial for Imperial
   unit_system: imperial
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: America/Los_Angeles
   # Customization file
   customize: !include customize.yaml
-
-# Show links to resources in log and frontend
-introduction:
 
 # Enables the frontend
 frontend:
@@ -29,16 +26,20 @@ http:
   # base_url: example.duckdns.org:8123
 
 # Checks for available updates
-# Note: This component will send some information about your system to
-# the developers to assist with development of Home Assistant.
-# For more information, please see:
-# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
 updater:
   # Optional, allows Home Assistant developers to focus on popular components.
   # include_used_components: true
 
 # Discover some devices automatically
 discovery:
+
+device_tracker:
+  - platform: nmap_tracker
+    hosts: 192.168.0.1/24
+    home_interval: 10
+    exclude:
+     - 192.168.0.189
+     - 192.168.0.1
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -55,6 +56,23 @@ sun:
 # Weather prediction
 sensor:
   - platform: yr
+  - platform: wunderground
+    api_key: !secret wunderground_key
+    monitored_conditions:
+      - weather_1d
+      - weather_2d
+      - weather_3d
+      - weather_4d
+      - temp_high_record_f
+      - temp_high_1d_f
+      - temp_f
+      - temp_low_1d_f
+      - temp_low_record_f
+      - precip_1d
+      - precip_1d_in
+      - wind_mph
+      - wind_1d_mph
+      - alerts
 
 # Text to speech
 tts:
