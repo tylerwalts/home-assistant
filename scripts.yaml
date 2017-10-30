@@ -11,3 +11,4 @@ startup_tasks:
       data:
         message: "HASS Started!"
     - service: script.ifttt_ping
+

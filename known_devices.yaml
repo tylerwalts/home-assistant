@@ -159,3 +159,12 @@ f4cb526158c1:
   track: true
   vendor: Texas Instruments
 
+
+5c0a5b4b4dd5:
+  hide_if_away: false
+  icon:
+  mac: 5C:0A:5B:4B:4D:D5
+  name: 5c0a5b4b4dd5
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO MECHANICS CO., LTD.

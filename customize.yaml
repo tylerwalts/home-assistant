@@ -1,0 +1,20 @@
+# Custom labels
+# Icon list: https://materialdesignicons.com/
+sensor.yr_symbol:
+  friendly_name: Weather
+
+# Nest
+sensor.living_room_thermostat_humidity:
+  friendly_name: Humidity
+sensor.living_room_thermostat_hvac_state:
+  friendly_name: Heat
+sensor.living_room_thermostat_target:
+  friendly_name: Target
+sensor.living_room_thermostat_temperature:
+  friendly_name: Current
+binary_sensor.living_room_thermostat_online:
+  friendly_name: Online
+
+device_tracker.echo_kitchen:
+  friendly_name: Big Echo
+  icon: mdi:amazon

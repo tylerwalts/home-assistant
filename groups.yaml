@@ -3,53 +3,57 @@ default_view:
   icon: mdi:home
   entities:
     - light.all_hue_lights
-    - group.living_room
-    - group.family_room
-    - group.bedroom
-    - group.shop
+    - sensor.yr_symbol
+    - sun.sun
+    - sensor.time
+    - updater.updater
+    - group.weather_overview
+    - group.daily_forecast
+    - group.alarm_setting
 
 living_room:
   name: Living Room
+  view: yes
+  entities:
+    - group.nest_living_room
+
+nest_living_room:
+  name: Nest Thermostat
+  view: no
   entities:
     - climate.living_room
     - sensor.living_room_thermostat_humidity
     - sensor.living_room_thermostat_hvac_state
-    - sensor.living_room_thermostat_operation_mode
-    - sensor.living_room_thermostat_target
-    - sensor.living_room_thermostat_temperature
     - binary_sensor.living_room_thermostat_online
-    - binary_sensor.living_room_thermostat_fan
 
 family_room:
   name: Family Room
+  view: yes
   entities:
     - media_player.livingroom
 
 bedroom:
   name: Master Bedroom
-  view: no
+  view: yes
   entities:
     - light.master_bed_by_door
     - light.master_rear
     - media_player.bedroom_tv
 
+kitchen:
+  name: Kitchen
+  view: yes
+  entities:
+    - device_tracker.echo_kitchen
+
 shop:
   name: Shop
-  view: no
+  view: yes
   entities:
     - light.shop
 
-climate:
-  name: Climate
-  view: yes
-  entities:
-    - sensor.yr_symbol
-    - sun.sun
-    - group.weather_overview
-    - group.daily_forecast
-
 daily_forecast:
-  name: Daily Forecast
+  name: Weather Forecast
   entities:
     - sensor.pws_weather_1d
     - sensor.pws_weather_2d
@@ -57,7 +61,7 @@ daily_forecast:
     - sensor.pws_weather_4d
 
 weather_overview:
-  name: Weather overview
+  name: Today's Weather
   entities:
     - sensor.pws_weather_1d
     - sensor.pws_temp_high_record_f
@@ -83,7 +87,6 @@ devices:
     - device_tracker.philips_hue_hub
     - device_tracker.holli_work_laptop
     - device_tracker.echo_shop
-    - device_tracker.echo_kitchen
 
 admin:
   name: Administration
@@ -92,3 +95,4 @@ admin:
     - automation.startup_notification
     - script.ifttt_ping
     - script.startup_tasks
+
