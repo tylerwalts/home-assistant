@@ -5,6 +5,7 @@ tyler_phone:
   name: Tyler Phone
   picture:
   track: true
+  vendor: Nexus
 
 holli_phone:
   hide_if_away: false
@@ -159,12 +160,65 @@ f4cb526158c1:
   track: true
   vendor: Texas Instruments
 
-
-5c0a5b4b4dd5:
+samsung_4s:
   hide_if_away: false
   icon:
   mac: 5C:0A:5B:4B:4D:D5
-  name: 5c0a5b4b4dd5
+  name: samsung_4s
   picture:
   track: true
   vendor: SAMSUNG ELECTRO MECHANICS CO., LTD.
+
+6c19c09daae4:
+  hide_if_away: false
+  icon:
+  mac: 6C:19:C0:9D:AA:E4
+  name: 6c19c09daae4
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+10f1f281cbfb:
+  hide_if_away: false
+  icon:
+  mac: 10:F1:F2:81:CB:FB
+  name: 10f1f281cbfb
+  picture:
+  track: true
+  vendor: LG Electronics (Mobile Communications)
+
+20ee286940e2:
+  hide_if_away: false
+  icon:
+  mac: 20:EE:28:69:40:E2
+  name: 20ee286940e2
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+245ba7c765e8:
+  hide_if_away: false
+  icon:
+  mac: 24:5B:A7:C7:65:E8
+  name: 245ba7c765e8
+  picture:
+  track: true
+  vendor: unknown
+
+0024e4370f0e:
+  hide_if_away: false
+  icon:
+  mac: 00:24:E4:37:0F:0E
+  name: 0024e4370f0e
+  picture:
+  track: true
+  vendor: Withings
+
+pantiltcam:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:E2:C8:ED
+  name: pantiltcam
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation

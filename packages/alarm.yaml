@@ -156,6 +156,14 @@ automation:
       - condition: template
         value_template: "{{ 'true' if (states.sensor.time.state.split(':')[1]  |int == states.input_number.slider_minutes.state |int) else 'false' }}"
     action:
-      service: persistent_notification.create
-      data:
-        message: 'Alarm Time!'
+      - service: persistent_notification.create
+        data:
+          message: 'Alarm Time!'
+      - service: light.turn_on
+        entity_id: light.bedroom
+        data:
+          transition: 600
+      - service: climate.set_temperature
+        entity_id: climate.living_room
+        data:
+          temperature: 73

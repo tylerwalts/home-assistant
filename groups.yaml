@@ -77,9 +77,15 @@ weather_overview:
 
 
 devices:
-  name: Device List
+  name: Devices
   view: yes
   icon: mdi:account-multiple
+  entities:
+    - group.device_list
+
+device_list:
+  name: Device List
+  view: no
   entities:
     - device_tracker.tyler_phone
     - device_tracker.holli_phone
@@ -87,6 +93,20 @@ devices:
     - device_tracker.philips_hue_hub
     - device_tracker.holli_work_laptop
     - device_tracker.echo_shop
+    - device_tracker.nest_living_room
+    - device_tracker.echo_kitchen
+    - device_tracker.chromecast_family_room
+    - device_tracker.6cadf833f145
+    - device_tracker.00c2c6d11195
+    - device_tracker.e04f431123b5
+    - device_tracker.e84e06462dd2
+    - device_tracker.f04f7c98f3f4
+    - device_tracker.4c0bbe472b6c
+    - device_tracker.3402863a9819
+    - device_tracker.10ae600a0a4c
+    - device_tracker.f4cb526158c1
+    - device_tracker.9884e3cf36bb
+    - device_tracker.samsung_4s
 
 admin:
   name: Administration
