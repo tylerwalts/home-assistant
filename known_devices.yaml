@@ -88,11 +88,11 @@ chromecast_family_room:
   track: true
   vendor: Intel Corporate
 
-e04f431123b5:
+RingDoorbell:
   hide_if_away: false
   icon:
   mac: E0:4F:43:11:23:B5
-  name: e04f431123b5
+  name: RingDoorbell
   picture:
   track: true
   vendor: Universal Global Scientific Industrial Co., Ltd.
@@ -115,11 +115,11 @@ f04f7c98f3f4:
   track: true
   vendor: unknown
 
-4c0bbe472b6c:
+XBoxOne:
   hide_if_away: false
   icon:
   mac: 4C:0B:BE:47:2B:6C
-  name: 4c0bbe472b6c
+  name: XBoxOne
   picture:
   track: true
   vendor: Microsoft
@@ -205,11 +205,11 @@ samsung_4s:
   track: true
   vendor: unknown
 
-0024e4370f0e:
+withings_scale:
   hide_if_away: false
   icon:
   mac: 00:24:E4:37:0F:0E
-  name: 0024e4370f0e
+  name: Withings Scale
   picture:
   track: true
   vendor: Withings
@@ -222,3 +222,75 @@ pantiltcam:
   picture:
   track: true
   vendor: Raspberry Pi Foundation
+
+90b686bc8838:
+  hide_if_away: false
+  icon:
+  mac: 90:B6:86:BC:88:38
+  name: 90b686bc8838
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+AmazonFire10:
+  hide_if_away: false
+  icon:
+  mac: 50:DC:E7:61:05:DE
+  name: AmazonFire10
+  picture:
+  track: true
+  vendor: Amazon Technologies Inc.
+
+NestProtectBasement:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:A7:F6:90
+  name: NestProtectBasement
+  picture:
+  track: true
+  vendor: Nest Labs Inc.
+
+Arlo2:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:A7:D8:02
+  name: Arlo2
+  picture:
+  track: true
+  vendor: unknown
+
+NestProtectShop:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:A7:C5:49
+  name: NestProtectShop
+  picture:
+  track: true
+  vendor: Nest Labs Inc.
+
+Arlo1:
+  hide_if_away: false
+  icon:
+  mac: 9C:3D:CF:80:3A:E9
+  name: Arlo1
+  picture:
+  track: true
+  vendor: unknown
+
+TracPhone:
+  hide_if_away: false
+  icon:
+  mac: 0C:72:D9:18:35:32
+  name: TracPhone
+  picture:
+  track: true
+  vendor: zte corporation
+
+PiLEDs:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:E6:EB:86
+  name: PiLEDs
+  picture:
+  track: true
+  vendor: unknown
