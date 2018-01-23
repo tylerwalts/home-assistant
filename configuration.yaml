@@ -82,6 +82,11 @@ nest:
 light:
   - platform: hue
 
+media_player:
+  - platform: webostv # TODO: Autodiscovery didn't work, so manually config
+  - platform: sonos
+  - platform: pandora # apt-get install pianobar ffmpeg
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

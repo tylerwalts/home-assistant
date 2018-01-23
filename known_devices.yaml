@@ -70,20 +70,20 @@ chromecast_family_room:
   track: true
   vendor: Google, Inc.
 
-6cadf833f145:
+ChromecastBasement:
   hide_if_away: false
   icon:
   mac: 6C:AD:F8:33:F1:45
-  name: 6cadf833f145
+  name: ChromecastBasement
   picture:
   track: true
   vendor: AzureWave Technology Inc.
 
-00c2c6d11195:
+IntelNUC:
   hide_if_away: false
   icon:
   mac: 00:C2:C6:D1:11:95
-  name: Intel Laptop
+  name: IntelNUC
   picture:
   track: true
   vendor: Intel Corporate
@@ -97,11 +97,11 @@ RingDoorbell:
   track: true
   vendor: Universal Global Scientific Industrial Co., Ltd.
 
-e84e06462dd2:
+DellTower:
   hide_if_away: false
   icon:
   mac: E8:4E:06:46:2D:D2
-  name: e84e06462dd2
+  name: DellTower
   picture:
   track: true
   vendor: EDUP INTERNATIONAL (HK) CO., LTD
@@ -291,6 +291,51 @@ PiLEDs:
   icon:
   mac: B8:27:EB:E6:EB:86
   name: PiLEDs
+  picture:
+  track: true
+  vendor: unknown
+
+SonosFamilyBar:
+  hide_if_away: false
+  icon:
+  mac: 94:9F:3E:6D:71:C9
+  name: SonosFamilyBar
+  picture:
+  track: true
+  vendor: Sonos, Inc.
+
+SonosFamilyRight:
+  hide_if_away: false
+  icon:
+  mac: 94:9F:3E:E0:A3:DE
+  name: SonosFamilyRight
+  picture:
+  track: true
+  vendor: Sonos, Inc.
+
+SonosBedroom:
+  hide_if_away: false
+  icon:
+  mac: 78:28:CA:23:6E:B0
+  name: SonosBedroom
+  picture:
+  track: true
+  vendor: Sonos, Inc.
+
+LGwebOS:
+  hide_if_away: false
+  icon:
+  mac: 48:8D:36:3F:A6:9E
+  name: LGwebOS
+  picture:
+  track: true
+  vendor: Arcadyan Corporation
+
+fca183a67af6:
+  hide_if_away: false
+  icon:
+  mac: FC:A1:83:A6:7A:F6
+  name: fca183a67af6
   picture:
   track: true
   vendor: unknown
